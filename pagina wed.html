@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página Web</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<div class="container">
+    <div class="header">
+        <div class="logo">
+            <img src="YAKUIN.jpg" alt="Imagen Izquierda">
+        </div>
+        <div class="titulo">
+            <h1>INSTITUTO TECNOLÓGICO DE TLAXIACO</h1>
+        </div>
+        <div class="logo">
+            <img src="logotectlaxiaco.png" alt="Imagen Derecha">
+        </div>
+    </div>
+    <table id="tabla">
+        <thead>
+            <tr>
+                <th>Integrantes del equipo</th>
+                <th>Unidad I</th>
+                <th>Unidad II</th>
+                <th>Unidad III</th>
+                <th>Unidad IV</th>
+                <th>Unidad V</th>
+            </tr>
+        </thead>
+        <tbody>
+           <tr>
+               <td>
+                   <select onchange="funcionUno(this.value)">
+                    <option value="javier">javier</option>
+                    <option value="sandra">sandra</option>
+                    <option value="rosa">rosa</option>
+                   </select>
+               </td>
+
+               <td>
+                <select onchange="funcionDos(this.value)">
+                    <option value="1">1</option>
+                    <option value="1.1">1.1</option>
+                    <option value="1.2">1.2</option>
+                    <option value="1.3">1.3</option>
+                    <option value="1.4">1.4</option>    
+                </select>
+              
+               </td>
+
+               <td>
+                <select onchange="funcionTres(this.value)">
+                    <option value="2">2</option>
+                    <option value="2.1">2.1</option>
+                    <option value="2.2">2.2</option>
+                    <option value="2.3">2.3</option>
+                    <option value="2.4">2.4</option>    
+                </select>
+               </td>
+
+               <td>
+                <select onchange="funcionCuatro(this.value)">
+                    <option value="3">3</option>
+                    <option value="3.1">3.1</option>
+                    <option value="3.2">3.2</option>
+                    <option value="3.3">3.3</option>
+                    <option value="3.4">3.4</option>    
+                </select>
+               </td>
+
+               <td>
+                <select onchange="funcionCinco(this.value)">
+                    <option value="4">4</option>
+                    <option value="4.1">4.1</option>
+                    <option value="4.2">4.2</option>
+                    <option value="4.3">4.3</option>
+                    <option value="4.4">4.4</option>    
+                </select>
+               </td>
+
+               <td>
+                <select onchange="funcionSeis(this.value)">
+                    <option value="5">5</option>
+                    <option value="5.1">5.1</option>
+                    <option value="5.2">5.2</option>
+                    <option value="5.3">5.3</option>
+                    <option value="5.4">5.4</option>    
+                </select>
+               </td>
+               <!-- Aquí puedes agregar más filas de datos si es necesario -->
+           </tr>
+        </tbody>
+    </table>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
