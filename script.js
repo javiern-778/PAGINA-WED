@@ -10,14 +10,14 @@ function mostrarInformacion(value) {
         `;
     } else if (value === "sandra") {
         datosSeleccionados.innerHTML = `
-            <img src="Sandra.jpg" alt="Foto de Sandra" style="max-width: 100px; max-height: 100px;">
+            <img src="Sandra.jpg" alt="Foto de Sandra" style="max-width: 120px; max-height: 120px;">
             <p>Nombre: Sandra</p>
             <p>Carrera: ISC</p>
             <p>Número de Control: [Número de Control de Sandra]</p>
         `;
     } else if (value === "rosa") {
         datosSeleccionados.innerHTML = `
-            <img src="Rosa.jpg" alt="Foto de Rosa" style="max-width: 100px; max-height: 100px;">
+            <img src="Rosa.jpg" alt="Foto de Rosa" style="max-width: 120px; max-height: 120px;">
             <p>Nombre: Rosa</p>
             <p>Carrera: ISC</p>
             <p>Número de Control: [Número de Control de Rosa]</p>
