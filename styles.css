@@ -2,7 +2,7 @@
     border: 1px solid #ccc; /* Establece un borde alrededor del contenedor con color gris claro */
     padding: 20px; /* Añade un relleno de 20px dentro del contenedor */
     border-radius: 20px; /* Agrega bordes redondeados al contenedor */
-    max-width: 900px; /* Establece el ancho máximo del contenedor a 800px */
+    max-width: 1000px; /* Establece el ancho máximo del contenedor a 800px */
     margin: 0 auto; /* Centra el contenedor horizontalmente en la página */
     background-color: #281263; /* Color de fondo para el contenedor */
 }
@@ -11,11 +11,11 @@
     display: flex; /* Utiliza el modelo de caja flexible para el diseño del encabezado */
     align-items: center; /* Centra verticalmente los elementos del encabezado */
     justify-content: space-between; /* Distribuye uniformemente los elementos del encabezado a lo largo del eje principal, dejando espacio entre ellos */
-    margin-bottom: 0px; /* Agrega un margen inferior de 20px al encabezado */
+    margin-bottom: 5px; /* Agrega un margen inferior de 20px al encabezado */
 }
 
 .logo img {
-    max-width: 100px; /* Establece el ancho máximo de las imágenes del logo a 100px */
+    max-width: 150px; /* Establece el ancho máximo de las imágenes del logo a 100px */
     height: auto; /* Permite que la altura de las imágenes del logo se ajuste automáticamente para mantener la proporción */
 }
 
@@ -24,7 +24,7 @@
 }
 
 table {
-    width: 100%; /* Establece el ancho de la tabla al 100% del contenedor padre */
+    width: 0%; /* Establece el ancho de la tabla al 100% del contenedor padre */
     border-collapse: collapse; /* Combina los bordes de las celdas de la tabla para un aspecto más limpio */
 }
 
