@@ -1,23 +1,29 @@
 function funcionUno(value){
-    alert("Función de los Integrantes del equipo: " + value);
+    var integrantesCell = document.getElementById("integrantes");
+    integrantesCell.innerText = value;
 }
 
 function funcionDos(value) {
-    alert("Función de la Unidad I" + value);
+    var unidadICell = document.getElementById("unidadI");
+    unidadICell.innerText = value;
 }
 
 function funcionTres(value) {
-    alert("Función de la Unidad II" + value);
+    var unidadIICell = document.getElementById("unidadII");
+    unidadIICell.innerText = value;
 }
 
 function funcionCuatro(value) {
-    alert("Función de la Unidad III" + value);
+    var unidadIIICell = document.getElementById("unidadIII");
+    unidadIIICell.innerText = value;
 }
 
 function funcionCinco(value) {
-    alert("Función de la Unidad IV" + value);
+    var unidadIVCell = document.getElementById("unidadIV");
+    unidadIVCell.innerText = value;
 }
 
 function funcionSeis(value) {
-    alert("Función de la Unidad V" + value);
+    var unidadVCell = document.getElementById("unidadV");
+    unidadVCell.innerText = value;
 }
