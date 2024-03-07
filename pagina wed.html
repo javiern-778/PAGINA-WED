@@ -20,43 +20,44 @@
         </div>
     </div>
     <table id="tabla">
+        <!-- Encabezados de la tabla -->
         <thead>
             <tr>
-                <td id="integrantes">Intregrandes de equipo</td>
-                <td id="unidadI">unidadI</td>
-                <td id="unidadII">unidadII</td>
-                <td id="unidadIII">unidadIII</td>
-                <td id="unidadIV">unidadIV</td>
-                <td id="unidadV">unidadV</td>
+                <th>Integrantes del equipo</th>
+                <th>Unidad I</th>
+                <th>Unidad II</th>
+                <th>Unidad III</th>
+                <th>Unidad IV</th>
+                <th>Unidad V</th>
             </tr>
-            
         </thead>
+        <!-- Cuerpo de la tabla -->
         <tbody>
-           <tr>
-               <td>
-                   <select onchange="funcionUno(this.value)">
-                    <option value="Integrantes">selecciona ha un integrande</option>
-                    <option value="javier">javier</option>
-                    <option value="sandra">sandra</option>
-                    <option value="rosa">rosa</option>
-                   </select>
-               </td>
-
-               <td>
-                <select onchange="funcionDos(this.value)">
-                    <option value="unidad 1">unidad 1</option>
-                    <option value="1">1.-Introduccion a las aplicaciones wed</option>
-                    <option value="1.1">1.1.-Evolucion de las aplicaciones wed</option>
-                    <option value="1.2">1.2.-Arquitectura de las aplicaciones</option>
-                    <option value="1.3">1.3.-Tecnologias para el desarollo para la aplicaciones wed</option>
-                    <option value="1.4">1.4.-Planificaion de aplicaciones wed</option>    
-                </select>
-              
-               </td>
-
-               <td>
-                <select onchange="funcionTres(this.value)">
-                    <option value="unidad 2">unidad 2</option>
+            <tr>
+                <!-- Selects -->
+                <td>
+                    <select onchange="mostrarInformacion(this.value)">
+                        <option value="Integrantes">Selecciona un integrante</option>
+                        <option value="javier">Javier</option>
+                        <option value="sandra">Sandra</option>
+                        <option value="rosa">Rosa</option>
+                    </select>
+                    
+                </td>
+                <!-- Resto de los selects -->
+                <td>
+                    <select onchange="mostrarDetalleUnidad(this.value, 'Unidad I')">
+                        <option value="unidad 1">Selecciona una unidad</option>
+                        <option value="1">1.-Introduccion a las aplicaciones wed</option>
+                        <option value="1.1">1.1.-Evolucion de las aplicaciones wed</option>
+                        <option value="1.2">1.2.-Arquitectura de las aplicaciones</option>
+                        <option value="1.3">1.3.-Tecnologias para el wed</option>
+                        <option value="1.4">1.4.-Planificaion de aplicaciones wed</option>  
+                    </select>
+                </td>
+                <td>
+                    <select onchange="mostrarDetalleUnidad(this.value, 'Unidad II')">
+                        <option value="unidad 2">unidad 2</option>
                     <option value="2">2.-html, xml y css</option>
                     <option value="2.1">2.1.-Introduccion</option>
                     <option value="2.2">2.2.-Estructura global de un documento wed</option>
@@ -65,36 +66,36 @@
                     <option value="2.5">2.5.-Lenguaje de presentacion en lenguaje</option>
                     <option value="2.6">2.6.-Selectores</option>
                     <option value="2.7">2.7.-modelo de caja</option>    
-                </select>
-               </td>
-
-               <td>
-                <select onchange="funcionCuatro(this.value)">
-                    <option value="unidad 3">unidad 3</option>
+                    </select>
+                </td>
+                <td>
+                    <select onchange="mostrarDetalleUnidad(this.value, 'Unidad III')">
+                        <!-- Opciones del select de la Unidad III -->
+                        <option value="unidad 3">unidad 3</option>
                     <option value="3">3.-Programacion del lado del cliente</option>
                     <option value="3.1">3.1.-Introduccion al lenguaje</option>
                     <option value="3.2">3.2.-manejo del frameworks</option>
                     <option value="3.3">3.3.-Estructura de control</option>
                     <option value="3.4">3.4.-Manipulacion de objetos</option>    
-                </select>
-               </td>
-
-               <td>
-                <select onchange="funcionCinco(this.value)">
-                    <option value="unidad 4">unidad 4</option>
+               
+                    </select>
+                </td>
+                <td>
+                    <select onchange="mostrarDetalleUnidad(this.value, 'Unidad IV')">
+                        <!-- Opciones del select de la Unidad IV -->
+                        <option value="unidad 4">unidad 4</option>
                     <option value="4">4.-Programacion del lado del servidor</option>
                     <option value="4.1">4.1.-Introduccion al lenguaje</option>
                     <option value="4.2">4.2.-Estructura de control</option>
                     <option value="4.3">4.3.-Tratamineto de formulario</option>
                     <option value="4.4">4.4.-Manejo de objetos del servidor</option>
                     <option value="4.5">4.5.-Creacion de clases</option>
-                    <option value="4.6">4.6.-Acceso a datos</option>    
-                </select>
-               </td>
-
-               <td>
-                <select onchange="funcionSeis(this.value)">
-                    <option value="unidad 5">unidad 5</option>
+                    <option value="4.6">4.6.-Acceso a datos</option> 
+                    </select>
+                </td>
+                <td>
+                    <select onchange="mostrarDetalleUnidad(this.value, 'Unidad V')">
+                        <option value="unidad 5">unidad 5</option>
                     <option value="5">5.-Computo en la nube y servicios</option>
                     <option value="5.1">5.1.-Concepto generales</option>
                     <option value="5.2">5.2.-tipos de servicios en la nube</option>
@@ -102,12 +103,14 @@
                     <option value="5.4">5.4.-Estantares en servicios</option>
                     <option value="5.5">5.5.-Plataforma tecnologicas</option> 
                     <option value="5.6">5.6.-Seguridad e interoperabilidad</option>   
-                </select>
-               </td>
-               <!-- Aquí puedes agregar más filas de datos si es necesario -->
-           </tr>
+                        <!-- Opciones del select de la Unidad V -->
+                    </select>
+                </td>
+            </tr>
         </tbody>
     </table>
+    <!-- Contenedor para mostrar los datos seleccionados -->
+    <div id="datosSeleccionados" class="datos-seleccionados"></div>
 </div>
 
 <script src="script.js"></script>
