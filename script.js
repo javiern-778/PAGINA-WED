@@ -17,7 +17,7 @@ function mostrarInformacion(value) {
         `;
     } else if (value === "rosa") {
         datosSeleccionados.innerHTML = `
-            <img src="Rosa.jpg" alt="Foto de Rosa" style="max-width: 120px; max-height: 120px;">
+            <img src="f1.jpg" alt="Foto de Rosa" style="max-width: 120px; max-height: 120px;">
             <p style="font-size: 38px;"><span style="color: black;">Nombre:</span> <span style="color: blue;">Rosa Salazar Doroteo</span></p>
             <p style="font-size: 38px;"><span style="color: black;">Carrera:</span> <span style="color: blue;">ISC</p>
             <p style="font-size: 38px;"><span style="color: black;">Número de Control: </span> <span style="color: blue;">18620216</p>
