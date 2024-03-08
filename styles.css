@@ -39,3 +39,7 @@ th {
     background-color: #f2f2f2; /* Establece un color de fondo gris claro para las celdas de encabezado de la tabla */
     font-weight: bold; /* Hace que el texto de las celdas de encabezado sea más grueso */
 }
+body {
+    background-image: url('ruta/a/tu/imagen.jpg');
+    background-size: cover; /* Esto asegura que la imagen de fondo cubra toda la pantalla */
+}
