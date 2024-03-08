@@ -15,7 +15,7 @@
 }
 
 .logo img {
-    max-width: 150px; /* Establece el ancho máximo de las imágenes del logo a 100px */
+    max-width: 170px; /* Establece el ancho máximo de las imágenes del logo a 100px */
     height: auto; /* Permite que la altura de las imágenes del logo se ajuste automáticamente para mantener la proporción */
 }
 
