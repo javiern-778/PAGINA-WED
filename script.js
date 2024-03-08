@@ -33,29 +33,29 @@ function mostrarDetalleUnidad(value, unidad) {
 
     if (value === "1") {
         datosSeleccionados.innerHTML = `
-            <h2 style="font-size: 38px;"><span style="color: blue;">1.-INTRODUCCIÓN A LAS APLICACIONES WEB </h2>
+            <h2 style="font-size: 38px;"><span style="color: black;">1.-INTRODUCCIÓN A LAS APLICACIONES WEB </h2>
             <embed src="1_Introducción.pdf" type="application/pdf" width="100%" height="500px"></iframe>
         `;
     }    
       else if (value === "1.1") {
         datosSeleccionados.innerHTML = `
-            <h2 style="font-size: 38px;"><span style="color: blue;">1.1.-Evolucion de las aplicaciones wed</h2>
+            <h2 style="font-size: 38px;"><span style="color: black;">1.1.-Evolucion de las aplicaciones wed</h2>
             <embed src="1_1_evolucion.pdf" type="application/pdf" width="100%" height="500px"></iframe>
 
         `;
     } else if (value === "1.2") {
         datosSeleccionados.innerHTML = `
-            <h2 style="font-size: 38px;"><span style="color: blue;">1.2.-Arquitectura de las aplicaciones</h2>
+            <h2 style="font-size: 38px;"><span style="color: black;">1.2.-Arquitectura de las aplicaciones</h2>
             <embed src="1_2_arquitectura.pdf" type="application/pdf" width="100%" height="500px"></iframe>
         `;
     } else if (value === "1.3") {
         datosSeleccionados.innerHTML = `
-            <h2 style="font-size: 38px;"><span style="color: blue;">1.3.-Tecnologias para el desarollo para la aplicaciones wed</h2>
+            <h2 style="font-size: 38px;"><span style="color: black;">1.3.-Tecnologias para el desarollo para la aplicaciones wed</h2>
             <embed src="1_3_tecnologias.pdf" type="application/pdf" width="100%" height="500px"></iframe>
         `;
     } else if (value === "1.4") {
         datosSeleccionados.innerHTML = `
-            <h2 style="font-size: 38px;"><span style="color: blue;">1.4.-Planificaion de aplicaciones wed</h2>
+            <h2 style="font-size: 38px;"><span style="color: black;">1.4.-Planificaion de aplicaciones wed</h2>
             <embed src="1_4_planificacion.pdf" type="application/pdf" width="100%" height="500px"></iframe>
         `;
     } else {
