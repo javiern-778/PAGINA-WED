@@ -2,7 +2,7 @@
     border: 1px solid #ccc; /* Establece un borde alrededor del contenedor con color gris claro */
     padding: 20px; /* Añade un relleno de 20px dentro del contenedor */
     border-radius: 20px; /* Agrega bordes redondeados al contenedor */
-    max-width: 10000px; /* Establece el ancho máximo del contenedor a 800px */
+    max-width: 1000px; /* Establece el ancho máximo del contenedor a 800px */
     margin: 0 auto; /* Centra el contenedor horizontalmente en la página */
     background-color: #281263; /* Color de fondo para el contenedor */
 }
