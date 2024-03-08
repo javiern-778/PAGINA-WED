@@ -3,7 +3,7 @@ function mostrarInformacion(value) {
 
     if (value === "javier") {
         datosSeleccionados.innerHTML = `
-            <img src="Javier.jpg" alt="Foto de Javier" style="max-width: 300px; max-height: 300px;">
+            <img src="Javier2.jpg" alt="Foto de Javier" style="max-width: 300px; max-height: 300px;">
             <p>Nombre: Javier Noe Cruz España</p>
             <p>Carrera: ISC</p>
             <p>Número de Control: 18620152</p>
