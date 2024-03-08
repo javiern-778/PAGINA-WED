@@ -46,7 +46,7 @@ function mostrarDetalleUnidad(value, unidad) {
     } else if (value === "1.2") {
         datosSeleccionados.innerHTML = `
             <h2>1.2.-Arquitectura de las aplicaciones</h2>
-            <iframe src="1_2_arquitectura.html" width="100%" height="500px"></iframe>
+            <embed src="1_2_arquitectura.pdf" type="application/pdf" width="100%" height="500px"></iframe>
         `;
     } else if (value === "1.3") {
         datosSeleccionados.innerHTML = `
