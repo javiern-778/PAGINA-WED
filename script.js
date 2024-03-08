@@ -10,10 +10,10 @@ function mostrarInformacion(value) {
         `;
     } else if (value === "sandra") {
         datosSeleccionados.innerHTML = `
-            <img src="Sandra.jpg" alt="Foto de Sandra" style="max-width: 120px; max-height: 120px;">
-            <p>Nombre: Sandra</p>
+            <img src="foto_sandra.jpeg" alt="Foto de Sandra" style="max-width: 120px; max-height: 120px;">
+            <p>Nombre: Sandra Yolotzin Reyes García</p>
             <p>Carrera: ISC</p>
-            <p>Número de Control: [Número de Control de Sandra]</p>
+            <p>Número de Control: 19620079</p>
         `;
     } else if (value === "rosa") {
         datosSeleccionados.innerHTML = `
