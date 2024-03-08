@@ -4,23 +4,23 @@ function mostrarInformacion(value) {
     if (value === "javier") {
         datosSeleccionados.innerHTML = `
             <img src="Javier2.jpg" alt="Foto de Javier" style="max-width: 300px; max-height: 300px;">
-            <p style="font-size: 38px;">Nombre: Javier Noe Cruz España</p>
-            <p style="font-size: 38px;">Carrera: ISC</p>
-            <p style="font-size: 38px;">Número de Control: 18620152</p>
+           <p style="font-size: 38px;"><span style="color: black;">Nombre:</span> <span style="color: blue;">Javier Noe Cruz España</span></p>
+            <p style="font-size: 38px;"><span style="color: black;">Carrera:</span> <span style="color: blue;">ISC</p>
+            <p style="font-size: 38px;"><span style="color: black;">Número de Control: </span> <span style="color: blue;">18620152</p>
         `;
     } else if (value === "sandra") {
         datosSeleccionados.innerHTML = `
             <img src="foto_sandra.jpeg" alt="Foto de Sandra" style="max-width: 120px; max-height: 120px;">
-            <p style="font-size: 38px;">Nombre: Sandra Yolotzin Reyes García</p>
-            <p style="font-size: 38px;">Carrera: ISC</p>
-            <p style="font-size: 38px;">Número de Control: 19620079</p>
+            <p style="font-size: 38px;"><span style="color: black;">Nombre:</span> <span style="color: blue;">Sandra Yolotzin Reyes García</span></p>
+            <p style="font-size: 38px;"><span style="color: black;">Carrera:</span> <span style="color: blue;">ISC</p>
+            <p style="font-size: 38px;"><span style="color: black;">Número de Control: </span> <span style="color: blue;">19620079</p>
         `;
     } else if (value === "rosa") {
         datosSeleccionados.innerHTML = `
             <img src="Rosa.jpg" alt="Foto de Rosa" style="max-width: 120px; max-height: 120px;">
-            <p style="font-size: 38px;">Nombre: Rosa</p>
-            <p style="font-size: 38px;">Carrera: ISC</p>
-            <p style="font-size: 38px;">Número de Control: [Número de Control de Rosa]</p>
+            <p style="font-size: 38px;"><span style="color: black;">Nombre:</span> <span style="color: blue;">Rosa Salazar Doroteo</span></p>
+            <p style="font-size: 38px;"><span style="color: black;">Carrera:</span> <span style="color: blue;">ISC</p>
+            <p style="font-size: 38px;"><span style="color: black;">Número de Control: </span> <span style="color: blue;">18620216</p>
         `;
     } else {
         // Manejar el caso donde no se ha seleccionado un integrante
